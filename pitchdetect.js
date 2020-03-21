@@ -335,7 +335,7 @@ function updatePitch( time ) {
         
     // FIXME
     console.log(ac)
-    document.querySelector('.ball').style.transform = `translateY(-${pitch / 2000 * 200}px)`
+    document.querySelector('.ball').style.transform = `translateY(-${pitch / 2000 * 500}px)`
 
 	rafID = window.requestAnimationFrame( updatePitch );
 }
